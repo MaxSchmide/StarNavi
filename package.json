@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://maxschmide.github.io/StarNavi",
+  "homepage": "https://maxschmide.github.io/starnavi",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
