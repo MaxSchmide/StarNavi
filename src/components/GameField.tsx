@@ -5,7 +5,7 @@ const GameField = () => {
   const { mode, cols, selectedCeils } = useGameContext();
 
   const field = Array.from({ length: Math.pow(cols, 2) }, (_, i) => i + 1);
-  console.log();
+
   return (
     <>
       <div

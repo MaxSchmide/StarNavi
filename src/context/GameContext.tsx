@@ -1,5 +1,6 @@
 import { createContext, useMemo, useState } from "react";
 import { getGridPosition } from "../utils";
+import { ICeil } from "../types/ceil";
 
 interface IGameContext {
   mode: number;
@@ -8,11 +9,6 @@ interface IGameContext {
   selectedCeils: ICeil[];
   handleStartGame: (fields: number) => void;
   handleSelectCeil: (index: number) => void;
-}
-interface ICeil {
-  id: number;
-  row: number;
-  col: number;
 }
 
 export const GameContext = createContext({} as IGameContext);
